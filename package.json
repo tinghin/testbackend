@@ -4,12 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "dev": "set PATH=..\\library\\instantclient_19_19;%PATH%&&nodemon"
   },
   "author": "andy",
   "license": "ISC",
+  "type": "commonjs",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.18.2",
-    "nodemon": "^2.0.22"
+    "moment": "^2.29.4",
+    "nodemon": "^2.0.22",
+    "oracledb": "^6.0.1",
+    "uuid": "^9.0.0"
   }
 }
